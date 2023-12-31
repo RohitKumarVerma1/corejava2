@@ -1,10 +1,10 @@
-class Loop2
+class Loop3a
 {
 	public static void main (String[]arg)
 	{
-		for(int i=5;i>=5;i--)
+		for(int i=1;i<=5;i++)
 		{
-		  for(int j=1;j<=5;j++)
+		  for(int j=i;j<=5;j++)
 		  {
 			  System.out.print(j+" ");
 		  }  
@@ -15,8 +15,7 @@ class Loop2
 
 /*output:-
 1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-1 2 3 4 5
-*/
+2 3 4 5
+3 4 5
+4 5
+5*/

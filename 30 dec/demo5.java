@@ -1,9 +1,10 @@
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
+import java.io.IOException;
 
-class Demo4
+class Demo5
 {
-	public static void main (String[]arg)
+	public static void main (String[]arg)throws IOException
 	{
  	 InputStreamReader i=new InputStreamReader(System.in);
 	 
@@ -20,6 +21,7 @@ class Demo4
 }
 
 /*output:-
-  error: unreported exception IOException; must be caught or declared to be thrown
-        int x=br.read();                              ^
+  Enter any Character
+s
+Character is =115
 */

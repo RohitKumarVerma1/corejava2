@@ -22,19 +22,17 @@ class Demo2
 	
 
 	int n1=Integer.parseInt(s2);
-	int n2=Integer.parseInt(s2);
+	int n2=Integer.parseInt(s3);
 	
 	int sum=(n1+n2);
 	System.out.println("sum is ="+sum);
 
-	}
+	}									
 }
 
-/*output:-
-
-Enter sentence
-my name is rohit
-my name is rohit
-my
-name
-	*/
+/*output:-kyokyi hm do number ko hi e rahe hain
+Enter 2 number
+12 13 12
+12 13 12
+sum is =25
+*/
